@@ -2,7 +2,7 @@ name: testing github workflows
 on: push
 jobs:
   init:
-    runs-on: self-hosted
+    runs-on: ubunted:lates
     steps:
       - run: echo "Bonjour"
       - run: echo $HOSTNAME
