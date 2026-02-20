@@ -2,7 +2,7 @@ name: testing github workflows
 on: push
 jobs:
   init:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Bonjour"
       - run: echo $HOSTNAME
