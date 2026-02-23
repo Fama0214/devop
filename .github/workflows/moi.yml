@@ -1,0 +1,8 @@
+name: testing github workflows
+on: push
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Etape3 - Build"
+      - run: echo $HOSTNAME
